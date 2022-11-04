@@ -1,0 +1,424 @@
+{
+  "productOne": {
+    "name": "",
+    "stepper": [
+      {
+        "stepOne": {
+          "elements": [
+            {
+              "name": "socialSecurityNumber",
+              "label": "Social Security Number",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Social Security Number",
+                  "maxLength": 11,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 26"
+                }
+              ]
+            },
+            {
+              "name": "firstName",
+              "label": "First Name",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "First Name is Required",
+                  "maxLength": 26,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 26"
+                }
+              ]
+            },
+            {
+              "name": "lastName",
+              "label": "Last Name",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Last Name is Required",
+                  "maxLength": 26,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 26"
+                }
+              ]
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Email is Required"
+                }
+              ]
+            },
+            {
+              "name": "houseHoldShare",
+              "label": "House Hold Share",
+              "type": "",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "House Hold Share is Required",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 100"
+                }
+              ]
+            },
+            {
+              "name": "terms and Conditions",
+              "label": "Terms and Conditions",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "option0",
+                  "value": "0"
+                }
+              ],
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Terms and Conditions is Required"
+                }
+              ]
+            },
+            {
+              "name": "gdpr",
+              "label": "GDPR",
+              "type": "checkbox",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "GDPR is Required"
+                }
+              ]
+            },
+            {
+              "name": "sbl consent approved",
+              "label": "SBL Consent Approved",
+              "type": "checkbox",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "SBL Consent Approved is Required"
+                }
+              ]
+            }
+          ]
+        },
+        "stepTwo": {
+          "elements": [
+            {
+              "name": "signin",
+              "label": "Signin",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Signin is Required"
+                }
+              ]
+            }
+          ]
+        },
+        "stepThree": {
+          "elements": [
+            {
+              "name": "thankyou",
+              "label": "Thanks You",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Name is Required"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "productTwo": {
+    "name": "",
+
+    "stepper": [
+      {
+        "stepOne": {
+          "elements": [
+            {
+              "name": "socialSecurityNumber",
+              "label": "Social Security Number",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Social Security Number is Required",
+                  "maxLength": 10,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 10"
+                }
+              ]
+            },
+            {
+              "name": "firstName",
+              "label": "First Name",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "First Name is Required",
+                  "maxLength": 26,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 26"
+                }
+              ]
+            },
+            {
+              "name": "lastName",
+              "label": "Last Name",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Last Name is Required",
+                  "maxLength": 26,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 26"
+                }
+              ]
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Email is Required"
+                }
+              ]
+            },
+            {
+              "name": "houseHoldShare",
+              "label": "House Hold Share",
+              "type": "slider",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "House Hold Share is Required",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 100"
+                }
+              ]
+            },
+            {
+              "name": "terms and Conditions",
+              "label": "Terms and Conditions",
+              "type": "radio",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Terms and Conditions is Required"
+                }
+              ]
+            },
+            {
+              "name": "gdpr",
+              "label": "GDPR",
+              "type": "checkbox",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "GDPR is Required"
+                }
+              ]
+            },
+            {
+              "name": "creditLimit",
+              "label": "CreditLimit",
+              "options": [
+                {
+                  "label": "option0",
+                  "value": "0"
+                }
+              ],
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "CreditLimit is Required"
+                }
+              ]
+            },
+            {
+              "name": "cliTerms",
+              "label": "CLI Terms",
+              "type": "checkbox",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "CreditLimit is Required"
+                }
+              ]
+            }
+          ]
+        },
+        "stepTwo": {
+          "elements": [
+            {
+              "name": "signin",
+              "label": "Signin",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Signin is Required"
+                }
+              ]
+            }
+          ]
+        },
+        "stepThree": {
+          "elements": [
+            {
+              "name": "thankyou",
+              "label": "Thanks You",
+              "type": "text"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "productThree": {
+    "name": "",
+
+    "stepper": [
+      {
+        "stepOne": {
+          "elements": [
+            {
+              "name": "socialSecurityNumber",
+              "label": "Social Security Number",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Social Security Number is Required",
+                  "maxLength": 10,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 10"
+                }
+              ]
+            },
+            {
+              "name": "firstName",
+              "label": "First Name",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "First Name is Required",
+                  "maxLength": 26,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 26"
+                }
+              ]
+            },
+            {
+              "name": "lastName",
+              "label": "Last Name",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Last Name is Required",
+                  "maxLength": 26,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 26"
+                }
+              ]
+            },
+            {
+              "name": "country",
+              "label": "Country",
+              "type": "text",
+              "validations": [
+                {
+                  "name": "required",
+                  "required": true,
+                  "message": "Country is Required",
+                  "maxLength": 25,
+                  "errormaxLength": "maxlength",
+                  "maxLengtherror": "Maximum Length is 25"
+                }
+              ]
+            },
+            {
+              "name": "ownership",
+              "label": "Ownership",
+              "opetions": [
+                {
+                  "name": "directly",
+                  "value": ""
+                },
+                {
+                  "name": "indirectly / via companies",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "name": "decisive influence",
+              "label": "Decisive influence",
+              "opetions": [
+                {
+                  "name": "",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        "stepTwo": {
+          "name": "thankyou",
+          "label": "Thank you",
+          "type": "text"
+        }
+      }
+    ]
+  }
+}

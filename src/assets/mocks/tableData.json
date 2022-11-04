@@ -1,0 +1,17 @@
+[
+    {
+        "ID":1,
+        "ProductName":"ProductOne",
+        "URL":"https://github.com/"
+    },
+    {
+        "ID":2,
+        "ProductName":"ProductTwo",
+        "URL":"https://github.com/"
+    },
+    {
+        "ID":3,
+        "ProductName":"ProductThree",
+        "URL":"https://github.com/"
+    }
+]

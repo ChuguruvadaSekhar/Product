@@ -1,0 +1,13 @@
+<table *ngIf="tableData && displayedColumns" mat-table [dataSource]="tableData" class="mat-elevation-z8">
+  <ng-container *ngFor="let k of displayedColumns">
+    <ng-container [matColumnDef]="k">
+      <th mat-header-cell *matHeaderCellDef>{{ k }}</th>
+      <td mat-cell *matCellDef="let element">
+        <span *ngIf="k === 'URL'" (click)="navigateTo(element.ID)" class="cursor">{{element[k]}}</span><span  *ngIf="k!== 'URL'">{{ element[k] }} </span>
+      </td>
+    </ng-container>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
